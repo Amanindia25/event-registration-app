@@ -59,13 +59,16 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  margin: auto;
   display: flex;
   place-items: center;
-  min-width: 320px;
+max-width: 1720px;
   min-height: 100vh;
 }
-
+#root{
+  width: 100%;
+ 
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
