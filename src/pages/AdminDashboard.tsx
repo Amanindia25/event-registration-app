@@ -167,8 +167,8 @@ export default function AdminDashboard() {
         </Button>
       </div>
       
-      <div className="overflow-x-auto"> {/* enable mobile scroll */}
-        <table className="min-w-full text-sm">
+      <div className="overflow-x-auto">
+        <Table>
           <TableHeader>
             <TableRow>
               <TableHead>Registration ID</TableHead>
@@ -217,7 +217,7 @@ export default function AdminDashboard() {
               </TableRow>
             )}
           </TableBody>
-        </table>
+        </Table>
       </div>
     </div>
   );
